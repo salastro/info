@@ -2,14 +2,8 @@ import './App.css'
 import Waves from './blocks/Backgrounds/Waves/Waves.tsx'
 import ProfileCard from './blocks/Components/ProfileCard/ProfileCard.tsx'
 import grain from './assets/jeb.svg'
-// import { VscArchive, VscAccount, } from 'react-icons/vsc';
 
 function App() {
-  // const items = [
-  //   { icon: <VscAccount size={18} />, label: 'Profile', onClick: () => alert('Profile!') },
-  //   { icon: <VscArchive size={18} />, label: 'Archive', onClick: () => alert('Archive!') },
-  // ];
-
   return (
     <>
       <Waves
@@ -44,16 +38,6 @@ function App() {
         github="salastro"
         linkedin="salastro"
       />
-
-      {
-        // <Dock
-        //   items={items}
-        //   panelHeight={68}
-        //   baseItemSize={50}
-        //   magnification={70}
-        // />
-      }
-
     </>
   )
 }
